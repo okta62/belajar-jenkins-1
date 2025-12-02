@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run PHP') {
             steps {
-                powershell '"C:\\xampp2\\php\\php.exe" index.php'
+                powershell '"C:\\xampp2\\php\\php.exe index.php"'
             }
         }
 
